@@ -8,6 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'loading-spinner';
 
+  firstname:string="sindhu";
+  price:number=1234;
+  today=new Date()
  
  
 
