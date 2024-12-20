@@ -1,9 +1,23 @@
+<div class="border border-2 border-info m-2 p-2">
+  <h1>App Component</h1>
+ <div class="d-flex ">
+  <div class="w-50">
+    <app-first></app-first>
+  </div>
+  <div class="w-50">
+    <app-second></app-second>
+  </div>
+ </div>
+</div>
 
-<div style="border: 2px solid green;padding: 10px;margin: 10px;">
-  <img src="https://i.gifer.com/ZKZg.gif"  *ngIf="loading" width="200px">
-  <ul *ngFor="let x of countries">
-    <li>{{x.name.common}}</li>
-
-  </ul>
-
+<div class="border border-3 border-warning p-2 m-2 mt-4">
+  <h1>Using Events</h1>
+ <div class="d-flex">
+  <div class="w-50">
+    <app-emiter1></app-emiter1>
+  </div>
+  <div class="w-50"> 
+    <app-emiter2></app-emiter2>
+  </div>
+ </div>
 </div>
