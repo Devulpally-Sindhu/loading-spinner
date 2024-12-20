@@ -1,9 +1,5 @@
 <h1>App component</h1>
-<h1>{{firstname | lowercase}}</h1>
-<h1>{{firstname | uppercase}}</h1>
-<h1>{{price | currency}}</h1>
-<b>{{price | currency:'INR'}}</b>
-<br>
-<b>{{price | currency:'EUR'}}</b>
-<h1>{{firstname | slice:3}}</h1>
-<h4>{{today | date:'MMM-dd-yy'}}</h4>
+
+<ul>
+  <li *ngFor="let x of students | sort:'d'">{{x}}</li>
+</ul>
