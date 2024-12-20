@@ -1,0 +1,22 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "sindhu",
+      "phonenumber": "70363565387",
+      "email": "sindhu09.dev@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "keerthi",
+      "phonenumber": "9959278139",
+      "email": "keerthi.devula@gmail.com"
+    },
+    {
+      "id": "3",
+      "name": "sravs",
+      "phonenumber": "9000567813",
+      "email": "sravs.dev@gmail.com"
+    }
+  ]
+}
