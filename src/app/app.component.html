@@ -1,5 +1,6 @@
 <h1>App component</h1>
-
+<button (click)="setOrder('a')">Asending</button>
+<button (click)="setOrder('d')">Desending</button>
 <ul>
-  <li *ngFor="let x of students | sort:'d'">{{x}}</li>
+  <li *ngFor="let x of students | slice:0:4 | sort:order">{{x}}</li>
 </ul>

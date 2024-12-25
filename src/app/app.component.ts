@@ -8,7 +8,14 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'loading-spinner';
 
- students:any=['kavitha','suma','archnana','neelima']
+ students:any=['kavitha','suma','archnana','neelima','rohit','uma','suma','ravi','raju','sanvi','hanu'];
+ order='a';
+
+ setOrder(x:any){
+  this.order=x
+
+ }
+
  
  
 
