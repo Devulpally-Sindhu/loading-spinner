@@ -7,8 +7,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'loading-spinner';
+  num:any='';
+  ar=["sindhu","vignesh","amma","dady"]
 
- students:any=['kavitha','suma','archnana','neelima']
+  add(){
+    this.ar.push(this.num)
+  }
+
+  abc(ind:number,vib:number){
+    return vib
+
+  }
  
  
 
