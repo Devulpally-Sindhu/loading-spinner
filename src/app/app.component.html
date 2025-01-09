@@ -1,15 +1,2 @@
-<!-- <h1 style="visibility: hidden;">App component</h1>
-<b style="display: none;">Sindhu</b>
-<input type="text" [(ngModel)]="num">
- <h1 *ngIf="num%2===0"></h1>
-<h1 *ngIf="num%2==1">Odd</h1>
-<h1 *ngIf="num%2===0;else abc">Even</h1>
-<ng-template #abc> <h1>Odd</h1></ng-template>
- -->
-
- <input type="text" [(ngModel)]="num">
- <button (click)="add()">Add new</button>
- <ul>
-  <li *ngFor="let x of ar;track:abc">{{x}}</li>
- </ul>
-
+<h1 appFirst>App component</h1>
+<input type="text" appFirst>
