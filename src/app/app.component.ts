@@ -10,7 +10,8 @@ export class AppComponent {
 
   firstname:string="sindhu";
   price:number=1234;
-  today=new Date()
+  today=new Date();
+  value:number=39365438.5982;
  
  
 
